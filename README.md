@@ -22,4 +22,4 @@ You should change ```"keys": ['a','s','d','w',' ']``` , ```"buttons": ['left']``
 
 ## This AFKBot Legacy is based on AFKBot versions 2.x and 3.x, and uses the original GUI source from NotchApple1703
 
-# First beta version will be release in 4/6 (6/4)
+# First beta version will be release in 4/6/2023 (6/4/2023)
