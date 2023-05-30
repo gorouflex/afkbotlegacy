@@ -20,4 +20,4 @@ AFKBot but more legacy and better ✨
 
 You should change ```"keys": ['a','s','d','w',' ']``` , ```"buttons": ['left']``` and ```self.SLEEP_TIME = 2```
 
-## First beta version will be realease in 4/6
+## First beta version will be release in 4/6 (6/4)
