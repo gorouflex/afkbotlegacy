@@ -1,5 +1,5 @@
 <h1 align="center">
-  AFKBot Legacy - Project MSK
+  AFKBot Legacy - Project LSK
   <br>
 
  </h1>
