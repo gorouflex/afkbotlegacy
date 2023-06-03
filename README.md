@@ -4,7 +4,7 @@
 
  </h1>
 
-<h4 align="center">A bot that prevent you AFK in some games</h4>
+<h4 align="center">Original from AFKBot</h4>
 
 <h4 align="center">Open-source project write by Python</h4>
 
@@ -22,8 +22,6 @@
 <div>
 <p align="center">
   <a href="https://github.com/gorouflex/afkbot/blob/main/README.md">English</a>
-  •
-  <a href="https://github.com/gorouflex/afkbot/blob/main/README-vn.md">Tiếng Việt</a>
 </p>
 </div>
 
