@@ -1,11 +1,32 @@
-# AFKBot Legacy
-AFKBot but more legacy and better ✨
-### Support
-<a href="https://patreon.com/GorouFlex"><img src="https://img.shields.io/endpoint.svg?url=https://moshef9.wixsite.com/patreon-badge/_functions/badge/?username=GorouFlex" alt="Patreon donate button" /> </a>
-# Table of Contents
+<h1 align="center">
+  AFKBot Legacy - Project MSK
+  <br>
 
-- [Features](#features)
-- [Config](#config)
+ </h1>
+
+<h4 align="center">A bot that prevent you AFK in some games</h4>
+
+<h4 align="center">Open-source project write by Python</h4>
+
+<p align="center">
+<a href="https://patreon.com/gorouflex"><img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dgorouflex%26type%3Dpatrons%26suffix%3Dsponsors&style=for-the-badge" alt="Support me on Patreon" /></a>
+ <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/gorouflex/afkbotlegacy?style=for-the-badge">
+<img alt="GitHub all releases" src="https://img.shields.io/github/downloads/gorouflex/afkbotlegacy/total?style=for-the-badge">
+<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/gorouflex/afkbotlegacy?style=for-the-badge">
+  <p align="center">
+  <a href="#features">Features</a>
+  •
+  <a href="#config">Config</a>      
+</p>
+
+<div>
+<p align="center">
+  <a href="https://github.com/gorouflex/afkbot/blob/main/README.md">English</a>
+  •
+  <a href="https://github.com/gorouflex/afkbot/blob/main/README-vn.md">Tiếng Việt</a>
+</p>
+</div>
+
 # Features
 
 - Random clicks
@@ -14,12 +35,13 @@ AFKBot but more legacy and better ✨
 
 - Interactive GUI with random window title
 
-- Random mouse move (alternative)
 # Config
 **config.py** in assets folder
 
 You should change ```"keys": ['a','s','d','w',' ']``` , ```"buttons": ['left']``` and ```self.SLEEP_TIME = 2```
+           
+# Special thanks to:
 
-## This AFKBot Legacy is based on AFKBot versions 2.x and 3.x, and uses the original GUI source from NotchApple1703
+### @NotchApple1703 : For GUI source code
 
-# First beta version will be release in 4/6/2023 (6/4/2023)
+# ⚠️Warning⚠️: This is for education purposes only, I am not responsible if you were ban in game!
