@@ -16,8 +16,15 @@
   <p align="center">
   <a href="#features">Features</a>
   •
-  <a href="#config">Config</a>      
+  <a href="#installation">Installation</a>
+  •
+  <a href="#updater">Updater</a>
+  •
+  <a href="#config">Config</a>
+  •
+  <a href="#preview">Preview</a>       
 </p>
+
 
 <div>
 <p align="center">
@@ -71,8 +78,11 @@ You should change ```"keys": ['a','s','d','w',' ']``` , ```"buttons": ['left']``
 <h1 align="center">GUI and Updater</h1>
 </p>
 
-<p align="center">          
 
+<p align="center">          
+  <img src="https://github.com/gorouflex/afkbotlegacy/assets/98001973/ef1ae334-74ec-4851-bf6d-0af664b826b1">
+  <img src="https://github.com/gorouflex/afkbotlegacy/assets/98001973/86a6474b-c47f-49f0-89ea-cf159daa7e53">
+  <img src="https://github.com/gorouflex/afkbotlegacy/assets/98001973/9942f642-6406-4707-825b-23d54ea2c216">
 </p>
 
 <p align="center">
