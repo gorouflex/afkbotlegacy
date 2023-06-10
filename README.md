@@ -28,7 +28,7 @@
 
 <div>
 <p align="center">
-  <a href="https://github.com/gorouflex/afkbot/blob/main/README.md">English</a>
+  <a href="https://github.com/gorouflex/afkbotlegacy/blob/main/README.md">English</a>
 </p>
 </div>
 
