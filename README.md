@@ -25,6 +25,8 @@
 </p>
 </div>
 
+### Original project: [AFKBot](https://github.com/gorouflex/afkbot)
+
 # Features
 
 - Random clicks
@@ -33,11 +35,51 @@
 
 - Interactive GUI with random window title
 
+- Random mouse movement
+
+# Installation
+### For Py/Source version
+- Please download [requirements.txt](https://github.com/gorouflex/afkbot/files/11712913/requirements.txt) and run 
+```
+pip install -r requirements.txt 
+```
+
+### For Portable version 
+- Just simply run .exe file
+
+# Updater 
+### How to use?
+1.Download **UpdaterV1.exe** from [Official Releases](https://github.com/gorouflex/afkbotlegacy/releases)
+
+2.Run and click Update button
+
+Tutorial video later
+
+### Cautions
+Before update please close AFKBot and backup your config file if need!
+
+While download and update the updater might stop respond but still working, please wait until it says **Update successfully!**
+
 # Config
 **config.py** in assets folder
 
-You should change ```"keys": ['a','s','d','w',' ']``` , ```"buttons": ['left']``` and ```self.SLEEP_TIME = 2```
+You should change ```"keys": ['a','s','d','w',' ']``` , ```"buttons": ['left']``` and ```self.SLEEP_TIME = 3```
+# Preview
+
+        
+<p align="center">
+<h1 align="center">GUI and Updater</h1>
+</p>
+
+<p align="center">          
+
+</p>
+
+<p align="center">
+<h1 align="center"> </h1>
+</p>
            
+
 # Special thanks to:
 
 ### @NotchApple1703 : For GUI source code
