@@ -27,7 +27,7 @@ def get_latest_version():
 
 
 def open_releases():
-    webbrowser.open("https://github.com/gorouflex/afkbotlegacy/releases/tag/1.0.0")
+    webbrowser.open("https://github.com/gorouflex/afkbotlegacy/releases/tag/1.0.1")
 
 
 # This resource_path works only when compile from python to exe
@@ -58,29 +58,36 @@ class InfoWindow(ctk.CTkToplevel):
         icon_path = os.path.join(os.getcwd(), "assets", "app.ico")
         self.after(250, lambda: self.iconbitmap(icon_path))
         self.title('About')
+
         self.owner = ctk.CTkLabel(self, text="Main developer: GorouFlex", font=("", 15))
         self.owner.grid(padx=5, pady=2, sticky="nsew")
+
         self.contrib = ctk.CTkLabel(self, text="Sub-developer: NotchApple1703", font=("", 15))
         self.contrib.grid(padx=5, pady=2, sticky="nsew")
-        self.afk_github_button = ctk.CTkButton(self, width=120, height=40, text="Similar repo",
+
+        self.afk_github_button = ctk.CTkButton(self, width=120, height=40, text="Original project repo",
                                                font=("", 16),
                                                corner_radius=5,
                                                command=open_afk_github)
-        self.afk_github_button.grid(row=3, column=0, padx=60, pady=5, sticky="nsew")
+        self.afk_github_button.grid(row=3, column=0, padx=50, pady=5, sticky="nsew")
+
         self.github_button = ctk.CTkButton(self, width=120, height=40, text="GitHub",
                                            font=("", 16),
                                            corner_radius=5,
                                            command=open_github)
-        self.github_button.grid(row=4, column=0, padx=60, pady=5, sticky="nsew")
+        self.github_button.grid(row=4, column=0, padx=50, pady=5, sticky="nsew")
+
         self.releases_button = ctk.CTkButton(self, width=120, height=40, text="Changes logs",
                                              font=("", 16),
                                              corner_radius=5,
                                              command=open_releases)
-        self.releases_button.grid(row=5, column=0, padx=60, pady=5, sticky="nsew")
+        self.releases_button.grid(row=5, column=0, padx=50, pady=5, sticky="nsew")
+
         self.version_label = ctk.CTkLabel(self, width=200,
                                           text=f"Latest version on GitHub: {get_latest_version()}",
                                           font=ctk.CTkFont(size=14))
         self.version_label.grid(row=6, column=0, padx=5, pady=5, sticky="nsew")
+
         self.grid_columnconfigure(0, weight=1)
         self.grid_rowconfigure(0, weight=0)
 
@@ -121,7 +128,7 @@ class Main(ctk.CTk):
                                            command=self.infowindow)
         self.github_button.grid(row=2, column=0)
 
-        self.credit_label = ctk.CTkLabel(self, width=500, text="Version: 1.0.0", font=("", 16))
+        self.credit_label = ctk.CTkLabel(self, width=500, text="Version: 1.0.1", font=("", 16))
         self.credit_label.grid(row=3, column=0, sticky="s")
 
     def update_title(self):
