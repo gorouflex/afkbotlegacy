@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 # Updater 
 ### How to use?
-1.Download **UpdaterV1.exe** from [Official Releases](https://github.com/gorouflex/afkbotlegacy/releases)
+1.Download **UpdaterV1.1.exe** from [Official Releases](https://github.com/gorouflex/afkbotlegacy/releases)
 
 2.Run and click Update button
 
